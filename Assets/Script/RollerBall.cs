@@ -11,11 +11,11 @@ public class NewBehaviourScript : MonoBehaviour
     public float speed;
     private float xInput, zInput;
     public TMP_Text uiHeader;
-    public GameObject mainCamera;
+   // private GameObject mainCamera;
 
     private void Start()
     {
-        mainCamera = (GameObject)GameObject.FindWithTag("MainCamera");
+        //mainCamera = (GameObject)GameObject.FindWithTag("MainCamera");
     }
 
     void Update()
@@ -25,7 +25,7 @@ public class NewBehaviourScript : MonoBehaviour
 
         transform.Translate(new Vector3(xInput,0, zInput) * Time.deltaTime * speed);
         uiHeader.text = "x = " + xInput + ", z = " + zInput;
-        mainCamera.transform.position = new Vector3(transform.position.x, 2.86f, transform.position.z);
+       // mainCamera.transform.position = new Vector3(transform.position.x, 2.86f, transform.position.z);
     }
 
 }

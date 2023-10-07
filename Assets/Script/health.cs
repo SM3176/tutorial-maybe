@@ -16,7 +16,7 @@ public class health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        c.GetComponent<Renderer>().material.color = Color.white;
+        
         if (healthpoints <= 0)
         {
             c.SetActive(false);

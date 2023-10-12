@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Git for Unity
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 95
+  controlID: 292
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,23 +59,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1381
+    x: 1380
     y: 0
-    width: 539
+    width: 540
     height: 947
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,10 +93,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 383
+    width: 384
     height: 611
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -119,7 +119,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 611
-    width: 1381
+    width: 1380
     height: 336
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
@@ -219,12 +219,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1381
+    width: 1380
     height: 947
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 38
+  controlID: 42
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,12 +244,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1381
+    width: 1380
     height: 611
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 39
+  controlID: 43
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,9 +265,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 383
+    x: 384
     y: 0
-    width: 998
+    width: 996
     height: 611
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -297,9 +297,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1381
+    x: 1380
     y: 73
-    width: 538
+    width: 539
     height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -311,16 +311,16 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  progressMessageClearTime: 4232.9325458
+  progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
-  changeTab: 3
-  activeTab: 3
+  appManagerProgressHasUpdate: 1
+  changeTab: 2
+  activeTab: 2
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -450,11 +450,21 @@ MonoBehaviour:
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
+      - path: origin/master
+        label: master
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
       selectedNode:
-        path: Remote branches
-        label: Remote branches
-        level: 0
-        isFolder: 1
+        path: origin/master
+        label: master
+        level: 2
+        isFolder: 0
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
@@ -467,10 +477,10 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2023-10-05T10:02:05.387+03:00
+      updatedTimeString: 2023-10-11T08:29:08.869+03:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2023-10-05T09:57:26.447+03:00
+      updatedTimeString: 2023-10-11T08:28:26.270+03:00
       cacheType: 1
     currentBranch:
       name: master
@@ -488,6 +498,8 @@ MonoBehaviour:
       tracking: origin/master
     remoteBranches:
     - name: origin/HEAD
+      tracking: '[None]'
+    - name: origin/master
       tracking: '[None]'
   changesView:
     currentBranchHasUpdate: 0
@@ -554,18 +566,614 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-10-05T10:59:46.213+03:00
+      updatedTimeString: 2023-10-11T09:26:02.400+03:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-10-05T11:05:16.376+03:00
+      updatedTimeString: 2023-10-11T09:25:45.206+03:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-10-11T09:25:03.779+03:00
       cacheType: 7
   historyView:
-    currentLogHasUpdate: 0
-    currentTrackingStatusHasUpdate: 0
+    currentLogHasUpdate: 1
+    currentTrackingStatusHasUpdate: 1
     logEntries:
+    - commitID: 3e738e280a77b50abd96c3f2654c3c8d52d9e1c5
+      mergeA: 
+      mergeB: 
+      authorName: SM3176
+      authorEmail: 202003176@student.polytechnic.bh
+      commitEmail: 202003176@student.polytechnic.bh
+      commitName: SM3176
+      summary: jumping
+      description: 
+      timeString: 2023-10-11T09:25:43.000+03:00
+      commitTimeString: 2023-10-11T09:25:43.000+03:00
+      changes:
+      - path: Assets\Scenes\Level1.unity
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\Level1.unity
+        projectPath: Assets\Scenes\Level1.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Script\RollerBall.cs
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\RollerBall.cs
+        projectPath: Assets\Script\RollerBall.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: fd8906b3341c425969db583d4be339f4c7c726c6
+      mergeA: c533d14a7869c6aa9627b8587c3b1f41273718d5
+      mergeB: 36562298ae76415b4df26ac293cbbbced3961f5f
+      authorName: SM3176
+      authorEmail: 202003176@student.polytechnic.bh
+      commitEmail: 202003176@student.polytechnic.bh
+      commitName: SM3176
+      summary: Merge branch 'master' of https://github.com/SM3176/tutorial-maybe
+      description: 
+      timeString: 2023-10-11T08:29:03.000+03:00
+      commitTimeString: 2023-10-11T08:29:03.000+03:00
+      changes: []
+    - commitID: c533d14a7869c6aa9627b8587c3b1f41273718d5
+      mergeA: 
+      mergeB: 
+      authorName: SM3176
+      authorEmail: 202003176@student.polytechnic.bh
+      commitEmail: 202003176@student.polytechnic.bh
+      commitName: SM3176
+      summary: aa
+      description: 
+      timeString: 2023-10-11T08:28:59.000+03:00
+      commitTimeString: 2023-10-11T08:28:59.000+03:00
+      changes:
+      - path: UserSettings\Layouts\default-2022.dwlt
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\UserSettings\Layouts\default-2022.dwlt
+        projectPath: UserSettings\Layouts\default-2022.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 36562298ae76415b4df26ac293cbbbced3961f5f
+      mergeA: 
+      mergeB: 
+      authorName: SM3176
+      authorEmail: 202003176@student.polytechnic.bh
+      commitEmail: 202003176@student.polytechnic.bh
+      commitName: SM3176
+      summary: let
+      description: 
+      timeString: 2023-10-07T17:24:32.000+03:00
+      commitTimeString: 2023-10-07T17:24:32.000+03:00
+      changes:
+      - path: Assets\3D Models\Meshes\Boletus_edulis01.fbx.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Meshes\Boletus_edulis01.fbx.meta
+        projectPath: Assets\3D Models\Meshes\Boletus_edulis01.fbx.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\3D Models\Meshes\Cedar03.fbx.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Meshes\Cedar03.fbx.meta
+        projectPath: Assets\3D Models\Meshes\Cedar03.fbx.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\3D Models\Meshes\Dandelion02.fbx.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Meshes\Dandelion02.fbx.meta
+        projectPath: Assets\3D Models\Meshes\Dandelion02.fbx.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\3D Models\Meshes\Fern01.fbx.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Meshes\Fern01.fbx.meta
+        projectPath: Assets\3D Models\Meshes\Fern01.fbx.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\3D Models\Meshes\Larch01.fbx.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Meshes\Larch01.fbx.meta
+        projectPath: Assets\3D Models\Meshes\Larch01.fbx.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\3D Models\Meshes\Pine01.fbx.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Meshes\Pine01.fbx.meta
+        projectPath: Assets\3D Models\Meshes\Pine01.fbx.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\3D Models\Meshes\Plantain.fbx.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Meshes\Plantain.fbx.meta
+        projectPath: Assets\3D Models\Meshes\Plantain.fbx.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\3D Models\Meshes\Stump.fbx.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Meshes\Stump.fbx.meta
+        projectPath: Assets\3D Models\Meshes\Stump.fbx.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Skybox\Skybox1_sun_cloud.png.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Skybox\Skybox1_sun_cloud.png.meta
+        projectPath: Assets\Skybox\Skybox1_sun_cloud.png.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Textures\Bark3-2.png.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Bark3-2.png.meta
+        projectPath: Assets\Textures\Bark3-2.png.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Textures\Boletus_edulis_d.png.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Boletus_edulis_d.png.meta
+        projectPath: Assets\Textures\Boletus_edulis_d.png.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Textures\Cedar_branch_big.png.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Cedar_branch_big.png.meta
+        projectPath: Assets\Textures\Cedar_branch_big.png.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Textures\Dandelion.png.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Dandelion.png.meta
+        projectPath: Assets\Textures\Dandelion.png.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Textures\Fern_branch.png.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Fern_branch.png.meta
+        projectPath: Assets\Textures\Fern_branch.png.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Textures\Landscape\Grass3-1.png.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Landscape\Grass3-1.png.meta
+        projectPath: Assets\Textures\Landscape\Grass3-1.png.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Textures\Landscape\Grass3-2.png.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Landscape\Grass3-2.png.meta
+        projectPath: Assets\Textures\Landscape\Grass3-2.png.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Textures\Landscape\Grass3-3.png.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Landscape\Grass3-3.png.meta
+        projectPath: Assets\Textures\Landscape\Grass3-3.png.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Textures\Landscape\Grass_landscape03.png.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Landscape\Grass_landscape03.png.meta
+        projectPath: Assets\Textures\Landscape\Grass_landscape03.png.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Textures\Landscape\Ground5-1.png.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Landscape\Ground5-1.png.meta
+        projectPath: Assets\Textures\Landscape\Ground5-1.png.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Textures\Landscape\Road3-1.png.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Landscape\Road3-1.png.meta
+        projectPath: Assets\Textures\Landscape\Road3-1.png.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Textures\Landscape\Road3-2.png.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Landscape\Road3-2.png.meta
+        projectPath: Assets\Textures\Landscape\Road3-2.png.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Textures\Landscape\Road3-3.png.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Landscape\Road3-3.png.meta
+        projectPath: Assets\Textures\Landscape\Road3-3.png.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Textures\Larch_branch.png.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Larch_branch.png.meta
+        projectPath: Assets\Textures\Larch_branch.png.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Textures\Pine_branch.png.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Pine_branch.png.meta
+        projectPath: Assets\Textures\Pine_branch.png.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Textures\Plantain.png.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Plantain.png.meta
+        projectPath: Assets\Textures\Plantain.png.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Textures\Stump_tip_d.png.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Stump_tip_d.png.meta
+        projectPath: Assets\Textures\Stump_tip_d.png.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 1bc68068ea69412fc0633669e9db1d2d3c48bcb1
+      mergeA: aeba1560c5be1959912b5b293b1024a4a2fcd9b1
+      mergeB: cf1814b8e48c14d9ee2ca57500678da399545104
+      authorName: SM3176
+      authorEmail: 202003176@student.polytechnic.bh
+      commitEmail: 202003176@student.polytechnic.bh
+      commitName: SM3176
+      summary: p_1JMLyb49pLIGojavnz00273Oar690i1iXwQlerge branch 'master' of https://github.com/SM3176/tutorial-maybe
+      description: updated from cloud
+      timeString: 2023-10-07T17:22:39.000+03:00
+      commitTimeString: 2023-10-07T17:22:39.000+03:00
+      changes: []
+    - commitID: aeba1560c5be1959912b5b293b1024a4a2fcd9b1
+      mergeA: 
+      mergeB: 
+      authorName: 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
+      authorEmail: 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
+      commitEmail: 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
+      commitName: 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
+      summary: ww
+      description: 
+      timeString: 2023-10-07T17:19:18.000+03:00
+      commitTimeString: 2023-10-07T17:19:18.000+03:00
+      changes:
+      - path: Assets\3D Models\Meshes.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Meshes.meta
+        projectPath: Assets\3D Models\Meshes.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\3D Models\Prefabs.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs.meta
+        projectPath: Assets\3D Models\Prefabs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\3D Models\Prefabs\Boletus_edulis01.prefab
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Boletus_edulis01.prefab
+        projectPath: Assets\3D Models\Prefabs\Boletus_edulis01.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\3D Models\Prefabs\Boletus_edulis01.prefab.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Boletus_edulis01.prefab.meta
+        projectPath: Assets\3D Models\Prefabs\Boletus_edulis01.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\3D Models\Prefabs\Cedar03.prefab
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Cedar03.prefab
+        projectPath: Assets\3D Models\Prefabs\Cedar03.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\3D Models\Prefabs\Cedar03.prefab.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Cedar03.prefab.meta
+        projectPath: Assets\3D Models\Prefabs\Cedar03.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\3D Models\Prefabs\Dandelion02.prefab
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Dandelion02.prefab
+        projectPath: Assets\3D Models\Prefabs\Dandelion02.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\3D Models\Prefabs\Dandelion02.prefab.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Dandelion02.prefab.meta
+        projectPath: Assets\3D Models\Prefabs\Dandelion02.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\3D Models\Prefabs\Fern01.prefab
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Fern01.prefab
+        projectPath: Assets\3D Models\Prefabs\Fern01.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\3D Models\Prefabs\Fern01.prefab.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Fern01.prefab.meta
+        projectPath: Assets\3D Models\Prefabs\Fern01.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\3D Models\Prefabs\Larch01.prefab
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Larch01.prefab
+        projectPath: Assets\3D Models\Prefabs\Larch01.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\3D Models\Prefabs\Larch01.prefab.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Larch01.prefab.meta
+        projectPath: Assets\3D Models\Prefabs\Larch01.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\3D Models\Prefabs\Pine01.prefab
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Pine01.prefab
+        projectPath: Assets\3D Models\Prefabs\Pine01.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\3D Models\Prefabs\Pine01.prefab.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Pine01.prefab.meta
+        projectPath: Assets\3D Models\Prefabs\Pine01.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\3D Models\Prefabs\Plantain.prefab
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Plantain.prefab
+        projectPath: Assets\3D Models\Prefabs\Plantain.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\3D Models\Prefabs\Plantain.prefab.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Plantain.prefab.meta
+        projectPath: Assets\3D Models\Prefabs\Plantain.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\3D Models\Prefabs\Stump.prefab
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Stump.prefab
+        projectPath: Assets\3D Models\Prefabs\Stump.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\3D Models\Prefabs\Stump.prefab.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Stump.prefab.meta
+        projectPath: Assets\3D Models\Prefabs\Stump.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Font.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Font.meta
+        projectPath: Assets\Font.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Font\Neythal.ttf
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Font\Neythal.ttf
+        projectPath: Assets\Font\Neythal.ttf
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Font\Neythal.ttf.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Font\Neythal.ttf.meta
+        projectPath: Assets\Font\Neythal.ttf.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Bark3-2.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Bark3-2.mat
+        projectPath: Assets\Materials\Bark3-2.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Bark3-2.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Bark3-2.mat.meta
+        projectPath: Assets\Materials\Bark3-2.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Boletus_edulis.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Boletus_edulis.mat
+        projectPath: Assets\Materials\Boletus_edulis.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Boletus_edulis.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Boletus_edulis.mat.meta
+        projectPath: Assets\Materials\Boletus_edulis.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Cedar_branch.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Cedar_branch.mat
+        projectPath: Assets\Materials\Cedar_branch.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Cedar_branch.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Cedar_branch.mat.meta
+        projectPath: Assets\Materials\Cedar_branch.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Dandelion.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Dandelion.mat
+        projectPath: Assets\Materials\Dandelion.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Dandelion.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Dandelion.mat.meta
+        projectPath: Assets\Materials\Dandelion.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Fern01_branch.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Fern01_branch.mat
+        projectPath: Assets\Materials\Fern01_branch.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Fern01_branch.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Fern01_branch.mat.meta
+        projectPath: Assets\Materials\Fern01_branch.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Larch_branch.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Larch_branch.mat
+        projectPath: Assets\Materials\Larch_branch.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Larch_branch.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Larch_branch.mat.meta
+        projectPath: Assets\Materials\Larch_branch.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Pine_branch.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Pine_branch.mat
+        projectPath: Assets\Materials\Pine_branch.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Pine_branch.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Pine_branch.mat.meta
+        projectPath: Assets\Materials\Pine_branch.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Plantain.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Plantain.mat
+        projectPath: Assets\Materials\Plantain.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Plantain.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Plantain.mat.meta
+        projectPath: Assets\Materials\Plantain.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Stump_tip.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Stump_tip.mat
+        projectPath: Assets\Materials\Stump_tip.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Stump_tip.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Stump_tip.mat.meta
+        projectPath: Assets\Materials\Stump_tip.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\Level1.unity
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\Level1.unity
+        projectPath: Assets\Scenes\Level1.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\Level1.unity.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\Level1.unity.meta
+        projectPath: Assets\Scenes\Level1.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\MainMenu.unity
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\MainMenu.unity
+        projectPath: Assets\Scenes\MainMenu.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\MainMenu.unity.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\MainMenu.unity.meta
+        projectPath: Assets\Scenes\MainMenu.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\Navigate.cs
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\Navigate.cs
+        projectPath: Assets\Script\Navigate.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\Navigate.cs.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\Navigate.cs.meta
+        projectPath: Assets\Script\Navigate.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\health.cs
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\health.cs
+        projectPath: Assets\Script\health.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Skybox.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Skybox.meta
+        projectPath: Assets\Skybox.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Skybox\Sky1_sun_cloud.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Skybox\Sky1_sun_cloud.mat
+        projectPath: Assets\Skybox\Sky1_sun_cloud.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Skybox\Sky1_sun_cloud.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Skybox\Sky1_sun_cloud.mat.meta
+        projectPath: Assets\Skybox\Sky1_sun_cloud.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\TextMesh Pro\Resources\Fonts
+          & Materials\LiberationSans SDF.asset
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Textures\Landscape.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Landscape.meta
+        projectPath: Assets\Textures\Landscape.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\ProjectSettings\EditorBuildSettings.asset
+        projectPath: ProjectSettings\EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 2dbd604025f17a9de57ea2a8e60dfeee9ca3f864
+      mergeA: 
+      mergeB: 
+      authorName: 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
+      authorEmail: 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
+      commitEmail: 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
+      commitName: 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
+      summary: whatever
+      description: 
+      timeString: 2023-10-07T17:19:02.000+03:00
+      commitTimeString: 2023-10-07T17:19:02.000+03:00
+      changes:
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\SampleScene.unity.meta
+        projectPath: Assets\Scenes\SampleScene.unity.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
     - commitID: cf1814b8e48c14d9ee2ca57500678da399545104
       mergeA: 
       mergeB: 
@@ -2651,14 +3259,610 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2023-10-05T10:59:46.719+03:00
+      updatedTimeString: 2023-10-12T11:22:00.826+03:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2023-10-05T10:59:46.710+03:00
+      updatedTimeString: 2023-10-12T11:22:00.809+03:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: 3e738e280a77b50abd96c3f2654c3c8d52d9e1c5
+        mergeA: 
+        mergeB: 
+        authorName: SM3176
+        authorEmail: 202003176@student.polytechnic.bh
+        commitEmail: 202003176@student.polytechnic.bh
+        commitName: SM3176
+        summary: jumping
+        description: 
+        timeString: 2023-10-11T09:25:43.000+03:00
+        commitTimeString: 2023-10-11T09:25:43.000+03:00
+        changes:
+        - path: Assets\Scenes\Level1.unity
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\Level1.unity
+          projectPath: Assets\Scenes\Level1.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Script\RollerBall.cs
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\RollerBall.cs
+          projectPath: Assets\Script\RollerBall.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: fd8906b3341c425969db583d4be339f4c7c726c6
+        mergeA: c533d14a7869c6aa9627b8587c3b1f41273718d5
+        mergeB: 36562298ae76415b4df26ac293cbbbced3961f5f
+        authorName: SM3176
+        authorEmail: 202003176@student.polytechnic.bh
+        commitEmail: 202003176@student.polytechnic.bh
+        commitName: SM3176
+        summary: Merge branch 'master' of https://github.com/SM3176/tutorial-maybe
+        description: 
+        timeString: 2023-10-11T08:29:03.000+03:00
+        commitTimeString: 2023-10-11T08:29:03.000+03:00
+        changes: []
+      - commitID: c533d14a7869c6aa9627b8587c3b1f41273718d5
+        mergeA: 
+        mergeB: 
+        authorName: SM3176
+        authorEmail: 202003176@student.polytechnic.bh
+        commitEmail: 202003176@student.polytechnic.bh
+        commitName: SM3176
+        summary: aa
+        description: 
+        timeString: 2023-10-11T08:28:59.000+03:00
+        commitTimeString: 2023-10-11T08:28:59.000+03:00
+        changes:
+        - path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 36562298ae76415b4df26ac293cbbbced3961f5f
+        mergeA: 
+        mergeB: 
+        authorName: SM3176
+        authorEmail: 202003176@student.polytechnic.bh
+        commitEmail: 202003176@student.polytechnic.bh
+        commitName: SM3176
+        summary: let
+        description: 
+        timeString: 2023-10-07T17:24:32.000+03:00
+        commitTimeString: 2023-10-07T17:24:32.000+03:00
+        changes:
+        - path: Assets\3D Models\Meshes\Boletus_edulis01.fbx.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Meshes\Boletus_edulis01.fbx.meta
+          projectPath: Assets\3D Models\Meshes\Boletus_edulis01.fbx.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\3D Models\Meshes\Cedar03.fbx.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Meshes\Cedar03.fbx.meta
+          projectPath: Assets\3D Models\Meshes\Cedar03.fbx.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\3D Models\Meshes\Dandelion02.fbx.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Meshes\Dandelion02.fbx.meta
+          projectPath: Assets\3D Models\Meshes\Dandelion02.fbx.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\3D Models\Meshes\Fern01.fbx.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Meshes\Fern01.fbx.meta
+          projectPath: Assets\3D Models\Meshes\Fern01.fbx.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\3D Models\Meshes\Larch01.fbx.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Meshes\Larch01.fbx.meta
+          projectPath: Assets\3D Models\Meshes\Larch01.fbx.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\3D Models\Meshes\Pine01.fbx.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Meshes\Pine01.fbx.meta
+          projectPath: Assets\3D Models\Meshes\Pine01.fbx.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\3D Models\Meshes\Plantain.fbx.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Meshes\Plantain.fbx.meta
+          projectPath: Assets\3D Models\Meshes\Plantain.fbx.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\3D Models\Meshes\Stump.fbx.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Meshes\Stump.fbx.meta
+          projectPath: Assets\3D Models\Meshes\Stump.fbx.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Skybox\Skybox1_sun_cloud.png.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Skybox\Skybox1_sun_cloud.png.meta
+          projectPath: Assets\Skybox\Skybox1_sun_cloud.png.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Textures\Bark3-2.png.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Bark3-2.png.meta
+          projectPath: Assets\Textures\Bark3-2.png.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Textures\Boletus_edulis_d.png.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Boletus_edulis_d.png.meta
+          projectPath: Assets\Textures\Boletus_edulis_d.png.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Textures\Cedar_branch_big.png.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Cedar_branch_big.png.meta
+          projectPath: Assets\Textures\Cedar_branch_big.png.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Textures\Dandelion.png.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Dandelion.png.meta
+          projectPath: Assets\Textures\Dandelion.png.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Textures\Fern_branch.png.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Fern_branch.png.meta
+          projectPath: Assets\Textures\Fern_branch.png.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Textures\Landscape\Grass3-1.png.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Landscape\Grass3-1.png.meta
+          projectPath: Assets\Textures\Landscape\Grass3-1.png.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Textures\Landscape\Grass3-2.png.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Landscape\Grass3-2.png.meta
+          projectPath: Assets\Textures\Landscape\Grass3-2.png.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Textures\Landscape\Grass3-3.png.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Landscape\Grass3-3.png.meta
+          projectPath: Assets\Textures\Landscape\Grass3-3.png.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Textures\Landscape\Grass_landscape03.png.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Landscape\Grass_landscape03.png.meta
+          projectPath: Assets\Textures\Landscape\Grass_landscape03.png.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Textures\Landscape\Ground5-1.png.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Landscape\Ground5-1.png.meta
+          projectPath: Assets\Textures\Landscape\Ground5-1.png.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Textures\Landscape\Road3-1.png.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Landscape\Road3-1.png.meta
+          projectPath: Assets\Textures\Landscape\Road3-1.png.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Textures\Landscape\Road3-2.png.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Landscape\Road3-2.png.meta
+          projectPath: Assets\Textures\Landscape\Road3-2.png.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Textures\Landscape\Road3-3.png.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Landscape\Road3-3.png.meta
+          projectPath: Assets\Textures\Landscape\Road3-3.png.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Textures\Larch_branch.png.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Larch_branch.png.meta
+          projectPath: Assets\Textures\Larch_branch.png.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Textures\Pine_branch.png.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Pine_branch.png.meta
+          projectPath: Assets\Textures\Pine_branch.png.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Textures\Plantain.png.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Plantain.png.meta
+          projectPath: Assets\Textures\Plantain.png.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Textures\Stump_tip_d.png.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Stump_tip_d.png.meta
+          projectPath: Assets\Textures\Stump_tip_d.png.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 1bc68068ea69412fc0633669e9db1d2d3c48bcb1
+        mergeA: aeba1560c5be1959912b5b293b1024a4a2fcd9b1
+        mergeB: cf1814b8e48c14d9ee2ca57500678da399545104
+        authorName: SM3176
+        authorEmail: 202003176@student.polytechnic.bh
+        commitEmail: 202003176@student.polytechnic.bh
+        commitName: SM3176
+        summary: p_1JMLyb49pLIGojavnz00273Oar690i1iXwQlerge branch 'master' of https://github.com/SM3176/tutorial-maybe
+        description: updated from cloud
+        timeString: 2023-10-07T17:22:39.000+03:00
+        commitTimeString: 2023-10-07T17:22:39.000+03:00
+        changes: []
+      - commitID: aeba1560c5be1959912b5b293b1024a4a2fcd9b1
+        mergeA: 
+        mergeB: 
+        authorName: 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
+        authorEmail: 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
+        commitEmail: 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
+        commitName: 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
+        summary: ww
+        description: 
+        timeString: 2023-10-07T17:19:18.000+03:00
+        commitTimeString: 2023-10-07T17:19:18.000+03:00
+        changes:
+        - path: Assets\3D Models\Meshes.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Meshes.meta
+          projectPath: Assets\3D Models\Meshes.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\3D Models\Prefabs.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs.meta
+          projectPath: Assets\3D Models\Prefabs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\3D Models\Prefabs\Boletus_edulis01.prefab
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Boletus_edulis01.prefab
+          projectPath: Assets\3D Models\Prefabs\Boletus_edulis01.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\3D Models\Prefabs\Boletus_edulis01.prefab.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Boletus_edulis01.prefab.meta
+          projectPath: Assets\3D Models\Prefabs\Boletus_edulis01.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\3D Models\Prefabs\Cedar03.prefab
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Cedar03.prefab
+          projectPath: Assets\3D Models\Prefabs\Cedar03.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\3D Models\Prefabs\Cedar03.prefab.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Cedar03.prefab.meta
+          projectPath: Assets\3D Models\Prefabs\Cedar03.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\3D Models\Prefabs\Dandelion02.prefab
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Dandelion02.prefab
+          projectPath: Assets\3D Models\Prefabs\Dandelion02.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\3D Models\Prefabs\Dandelion02.prefab.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Dandelion02.prefab.meta
+          projectPath: Assets\3D Models\Prefabs\Dandelion02.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\3D Models\Prefabs\Fern01.prefab
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Fern01.prefab
+          projectPath: Assets\3D Models\Prefabs\Fern01.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\3D Models\Prefabs\Fern01.prefab.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Fern01.prefab.meta
+          projectPath: Assets\3D Models\Prefabs\Fern01.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\3D Models\Prefabs\Larch01.prefab
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Larch01.prefab
+          projectPath: Assets\3D Models\Prefabs\Larch01.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\3D Models\Prefabs\Larch01.prefab.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Larch01.prefab.meta
+          projectPath: Assets\3D Models\Prefabs\Larch01.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\3D Models\Prefabs\Pine01.prefab
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Pine01.prefab
+          projectPath: Assets\3D Models\Prefabs\Pine01.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\3D Models\Prefabs\Pine01.prefab.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Pine01.prefab.meta
+          projectPath: Assets\3D Models\Prefabs\Pine01.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\3D Models\Prefabs\Plantain.prefab
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Plantain.prefab
+          projectPath: Assets\3D Models\Prefabs\Plantain.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\3D Models\Prefabs\Plantain.prefab.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Plantain.prefab.meta
+          projectPath: Assets\3D Models\Prefabs\Plantain.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\3D Models\Prefabs\Stump.prefab
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Stump.prefab
+          projectPath: Assets\3D Models\Prefabs\Stump.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\3D Models\Prefabs\Stump.prefab.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\3D Models\Prefabs\Stump.prefab.meta
+          projectPath: Assets\3D Models\Prefabs\Stump.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Font.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Font.meta
+          projectPath: Assets\Font.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Font\Neythal.ttf
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Font\Neythal.ttf
+          projectPath: Assets\Font\Neythal.ttf
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Font\Neythal.ttf.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Font\Neythal.ttf.meta
+          projectPath: Assets\Font\Neythal.ttf.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Bark3-2.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Bark3-2.mat
+          projectPath: Assets\Materials\Bark3-2.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Bark3-2.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Bark3-2.mat.meta
+          projectPath: Assets\Materials\Bark3-2.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Boletus_edulis.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Boletus_edulis.mat
+          projectPath: Assets\Materials\Boletus_edulis.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Boletus_edulis.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Boletus_edulis.mat.meta
+          projectPath: Assets\Materials\Boletus_edulis.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Cedar_branch.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Cedar_branch.mat
+          projectPath: Assets\Materials\Cedar_branch.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Cedar_branch.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Cedar_branch.mat.meta
+          projectPath: Assets\Materials\Cedar_branch.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Dandelion.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Dandelion.mat
+          projectPath: Assets\Materials\Dandelion.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Dandelion.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Dandelion.mat.meta
+          projectPath: Assets\Materials\Dandelion.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Fern01_branch.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Fern01_branch.mat
+          projectPath: Assets\Materials\Fern01_branch.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Fern01_branch.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Fern01_branch.mat.meta
+          projectPath: Assets\Materials\Fern01_branch.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Larch_branch.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Larch_branch.mat
+          projectPath: Assets\Materials\Larch_branch.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Larch_branch.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Larch_branch.mat.meta
+          projectPath: Assets\Materials\Larch_branch.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Pine_branch.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Pine_branch.mat
+          projectPath: Assets\Materials\Pine_branch.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Pine_branch.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Pine_branch.mat.meta
+          projectPath: Assets\Materials\Pine_branch.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Plantain.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Plantain.mat
+          projectPath: Assets\Materials\Plantain.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Plantain.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Plantain.mat.meta
+          projectPath: Assets\Materials\Plantain.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Stump_tip.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Stump_tip.mat
+          projectPath: Assets\Materials\Stump_tip.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Stump_tip.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Stump_tip.mat.meta
+          projectPath: Assets\Materials\Stump_tip.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\Level1.unity
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\Level1.unity
+          projectPath: Assets\Scenes\Level1.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\Level1.unity.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\Level1.unity.meta
+          projectPath: Assets\Scenes\Level1.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\MainMenu.unity
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\MainMenu.unity
+          projectPath: Assets\Scenes\MainMenu.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\MainMenu.unity.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\MainMenu.unity.meta
+          projectPath: Assets\Scenes\MainMenu.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Script\Navigate.cs
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\Navigate.cs
+          projectPath: Assets\Script\Navigate.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Script\Navigate.cs.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\Navigate.cs.meta
+          projectPath: Assets\Script\Navigate.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Script\health.cs
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\health.cs
+          projectPath: Assets\Script\health.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Skybox.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Skybox.meta
+          projectPath: Assets\Skybox.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Skybox\Sky1_sun_cloud.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Skybox\Sky1_sun_cloud.mat
+          projectPath: Assets\Skybox\Sky1_sun_cloud.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Skybox\Sky1_sun_cloud.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Skybox\Sky1_sun_cloud.mat.meta
+          projectPath: Assets\Skybox\Sky1_sun_cloud.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\TextMesh Pro\Resources\Fonts
+            & Materials\LiberationSans SDF.asset
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Textures\Landscape.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Textures\Landscape.meta
+          projectPath: Assets\Textures\Landscape.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 2dbd604025f17a9de57ea2a8e60dfeee9ca3f864
+        mergeA: 
+        mergeB: 
+        authorName: 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
+        authorEmail: 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
+        commitEmail: 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
+        commitName: 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
+        summary: whatever
+        description: 
+        timeString: 2023-10-07T17:19:02.000+03:00
+        commitTimeString: 2023-10-07T17:19:02.000+03:00
+        changes:
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\SampleScene.unity.meta
+          projectPath: Assets\Scenes\SampleScene.unity.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
       - commitID: cf1814b8e48c14d9ee2ca57500678da399545104
         mergeA: 
         mergeB: 
@@ -4745,67 +5949,29 @@ MonoBehaviour:
           indexStatus: 4
           workTreeStatus: 0
       statusAhead: 0
-      selectedIndex: 0
+      selectedIndex: -1
     selectedEntry:
-      commitID: cf1814b8e48c14d9ee2ca57500678da399545104
+      commitID: 
       mergeA: 
       mergeB: 
-      authorName: SM3176
-      authorEmail: 202003176@student.polytechnic.bh
-      commitEmail: 202003176@student.polytechnic.bh
-      commitName: SM3176
-      summary: Menu
+      authorName: 
+      authorEmail: 
+      commitEmail: 
+      commitName: 
+      summary: 
       description: 
-      timeString: 2023-10-05T10:59:36.000+03:00
-      commitTimeString: 2023-10-05T10:59:36.000+03:00
+      timeString: 0001-01-01T00:00:00.000+00:00
+      commitTimeString: 0001-01-01T00:00:00.000+00:00
       changes:
       - path: Assets\Scenes\Level1.unity
         fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\Level1.unity
         projectPath: Assets\Scenes\Level1.unity
-        originalPath: Assets\Scenes\SampleScene.unity
-        indexStatus: 6
-        workTreeStatus: 0
-      - path: Assets\Scenes\Level1.unity.meta
-        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\Level1.unity.meta
-        projectPath: Assets\Scenes\Level1.unity.meta
-        originalPath: Assets\Scenes\SampleScene.unity.meta
-        indexStatus: 6
-        workTreeStatus: 0
-      - path: Assets\Scenes\MainMenu.unity
-        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\MainMenu.unity
-        projectPath: Assets\Scenes\MainMenu.unity
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\MainMenu.unity.meta
-        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\MainMenu.unity.meta
-        projectPath: Assets\Scenes\MainMenu.unity.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Script\Navigate.cs
-        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\Navigate.cs
-        projectPath: Assets\Script\Navigate.cs
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Script\Navigate.cs.meta
-        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\Navigate.cs.meta
-        projectPath: Assets\Script\Navigate.cs.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset
-        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\TextMesh Pro\Resources\Fonts
-          & Materials\LiberationSans SDF.asset
-        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
-          SDF.asset
         originalPath: 
         indexStatus: 3
         workTreeStatus: 0
-      - path: ProjectSettings\EditorBuildSettings.asset
-        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\ProjectSettings\EditorBuildSettings.asset
-        projectPath: ProjectSettings\EditorBuildSettings.asset
+      - path: Assets\Script\RollerBall.cs
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\RollerBall.cs
+        projectPath: Assets\Script\RollerBall.cs
         originalPath: 
         indexStatus: 3
         workTreeStatus: 0
@@ -4824,10 +5990,6 @@ MonoBehaviour:
         - Assets
         - Assets\Scenes
         - Assets\Script
-        - Assets\TextMesh Pro
-        - Assets\TextMesh Pro\Resources
-        - Assets\TextMesh Pro\Resources\Fonts & Materials
-        - ProjectSettings
         - UserSettings
         values:
         - path: Assets
@@ -4869,78 +6031,6 @@ MonoBehaviour:
         - path: Assets\Script
           label: Script
           level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\TextMesh Pro
-          label: TextMesh Pro
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\TextMesh Pro\Resources
-          label: Resources
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\TextMesh Pro\Resources\Fonts & Materials
-          label: Fonts & Materials
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: ProjectSettings
-          label: ProjectSettings
-          level: 0
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -5042,7 +6132,7 @@ MonoBehaviour:
         label: Level1.unity
         level: 2
         isFolder: 0
-        isContainer: 1
+        isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
@@ -5053,62 +6143,8 @@ MonoBehaviour:
           path: Assets\Scenes\Level1.unity
           fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\Level1.unity
           projectPath: Assets\Scenes\Level1.unity
-          originalPath: Assets\Scenes\SampleScene.unity
-          indexStatus: 6
-          workTreeStatus: 0
-      - path: Assets\Scenes\Level1.unity.meta
-        label: Level1.unity.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\Level1.unity.meta
-          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\Level1.unity.meta
-          projectPath: Assets\Scenes\Level1.unity.meta
-          originalPath: Assets\Scenes\SampleScene.unity.meta
-          indexStatus: 6
-          workTreeStatus: 0
-      - path: Assets\Scenes\MainMenu.unity
-        label: MainMenu.unity
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\MainMenu.unity
-          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\MainMenu.unity
-          projectPath: Assets\Scenes\MainMenu.unity
           originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Scenes\MainMenu.unity.meta
-        label: MainMenu.unity.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\MainMenu.unity.meta
-          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\MainMenu.unity.meta
-          projectPath: Assets\Scenes\MainMenu.unity.meta
-          originalPath: 
-          indexStatus: 4
+          indexStatus: 3
           workTreeStatus: 0
       - path: Assets\Script
         label: Script
@@ -5128,28 +6164,10 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Script\Navigate.cs
-        label: Navigate.cs
+      - path: Assets\Script\RollerBall.cs
+        label: RollerBall.cs
         level: 2
         isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Script\Navigate.cs
-          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\Navigate.cs
-          projectPath: Assets\Script\Navigate.cs
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Script\Navigate.cs.meta
-        label: Navigate.cs.meta
-        level: 3
-        isFolder: 0
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
@@ -5158,119 +6176,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Script\Navigate.cs.meta
-          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\Navigate.cs.meta
-          projectPath: Assets\Script\Navigate.cs.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\TextMesh Pro
-        label: TextMesh Pro
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\TextMesh Pro\Resources
-        label: Resources
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\TextMesh Pro\Resources\Fonts & Materials
-        label: Fonts & Materials
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset
-        label: LiberationSans SDF.asset
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset
-          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\TextMesh Pro\Resources\Fonts
-            & Materials\LiberationSans SDF.asset
-          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
-            SDF.asset
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: ProjectSettings
-        label: ProjectSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: ProjectSettings\EditorBuildSettings.asset
-        label: EditorBuildSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\ProjectSettings\EditorBuildSettings.asset
-          projectPath: ProjectSettings\EditorBuildSettings.asset
+          path: Assets\Script\RollerBall.cs
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\RollerBall.cs
+          projectPath: Assets\Script\RollerBall.cs
           originalPath: 
           indexStatus: 3
           workTreeStatus: 0
@@ -5340,7 +6248,7 @@ MonoBehaviour:
       changingManually: 0
     hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-10-05T09:57:26.447+03:00
+      updatedTimeString: 2023-10-11T08:28:26.270+03:00
       cacheType: 1
     newRepositoryRemoteUrl: https://github.com/SM3176/tutorial-maybe.git
     repositoryRemoteName: origin
@@ -5353,7 +6261,7 @@ MonoBehaviour:
       newGitEmail: 202003176@student.polytechnic.bh
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2023-10-05T09:57:44.567+03:00
+        updatedTimeString: 2023-10-11T08:28:49.056+03:00
         cacheType: 8
     webTimeout: 100000
     gitTimeout: 5000
@@ -5382,16 +6290,22 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 03:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-10-05T09:57:26.447+03:00
+      updatedTimeString: 2023-10-11T08:28:26.270+03:00
       cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 2023-10-05T10:01:31.185+03:00
+      updatedTimeString: 2023-10-11T08:28:28.234+03:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-10-05T10:02:06.173+03:00
+      updatedTimeString: 2023-10-11T08:28:28.451+03:00
       cacheType: 6
     lockedFiles: []
-    gitStatusEntries: []
+    gitStatusEntries:
+    - path: UserSettings\Layouts\default-2022.dwlt
+      fullPath: C:\Users\202003176\Desktop\tutorial-maybe\UserSettings\Layouts\default-2022.dwlt
+      projectPath: UserSettings\Layouts\default-2022.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     currentUsername: 
     unlockFileMenuContent:
       m_Text: Release Lock
@@ -5407,7 +6321,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/SM3176/tutorial-maybe.git
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 0
+  hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: master
@@ -5418,13 +6332,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-10-05T10:59:46.213+03:00
+    updatedTimeString: 2023-10-12T10:48:30.620+03:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-10-05T11:05:16.388+03:00
+    updatedTimeString: 2023-10-12T10:48:40.099+03:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-10-05T11:05:16.376+03:00
+    updatedTimeString: 2023-10-12T10:49:29.185+03:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -5442,8 +6356,8 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 1
-  repositoryProgressMessage: Pushed
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
@@ -5469,7 +6383,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 684
-    width: 1380
+    width: 1379
     height: 315
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -5494,7 +6408,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Skybox
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -5502,16 +6416,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Skybox
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\202003176\Desktop\tutorial-maybe
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 42410000
-    m_LastClickedID: 16706
-    m_ExpandedIDs: 00000000ae40000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: f0600000
+    m_LastClickedID: 24816
+    m_ExpandedIDs: 00000000bc60000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -5539,7 +6453,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000bc600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -5615,9 +6529,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1381
+    x: 1380
     y: 73
-    width: 538
+    width: 539
     height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -5664,7 +6578,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 382
+    width: 383
     height: 590
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -5681,7 +6595,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 964dfeff4c55feffeaa0fefff4adfeffbeaffeffaab0feff9cf9feffa2fffeffde8e00006ab20000
+      m_ExpandedIDs: b2b2ffff16fbffffbc5e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -5697,7 +6611,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -5725,9 +6639,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 383
+    x: 384
     y: 73
-    width: 996
+    width: 994
     height: 590
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -6035,9 +6949,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 7.712168, y: -2.7331648, z: 12.937043}
+    m_Target: {x: 2.6664433, y: 12.613357, z: -6.4909577}
     speed: 2
-    m_Value: {x: 7.712168, y: -2.7331648, z: 12.937043}
+    m_Value: {x: 2.6664433, y: 12.613357, z: -6.4909577}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -6083,13 +6997,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.17503886, y: 0.3378118, z: -0.0640926, w: 0.9225751}
+    m_Target: {x: -0.12117416, y: 0.02174349, z: -0.0026638298, w: -0.9924036}
     speed: 2
-    m_Value: {x: 0.17503814, y: 0.33781043, z: -0.06409234, w: 0.92257136}
+    m_Value: {x: -0.11819475, y: 0.02175108, z: -0.0025985474, w: -0.9927488}
   m_Size:
-    m_Target: 12.124355
+    m_Target: 16.411413
     speed: 2
-    m_Value: 12.124355
+    m_Value: 16.411413
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -6134,10 +7048,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 0
+    y: 684
+    width: 1379
+    height: 315
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -6168,9 +7082,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 383
+    x: 384
     y: 73
-    width: 996
+    width: 994
     height: 590
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -6190,7 +7104,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 996, y: 569}
+  m_TargetSize: {x: 994, y: 569}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -6205,8 +7119,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -498
-    m_HBaseRangeMax: 498
+    m_HBaseRangeMin: -497
+    m_HBaseRangeMax: 497
     m_VBaseRangeMin: -284.5
     m_VBaseRangeMax: 284.5
     m_HAllowExceedBaseRangeMin: 1
@@ -6226,23 +7140,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 996
+      width: 994
       height: 569
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 498, y: 284.5}
+    m_Translation: {x: 497, y: 284.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -498
+      x: -497
       y: -284.5
-      width: 996
+      width: 994
       height: 569
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 996, y: 590}
+  m_LastWindowPixelSize: {x: 994, y: 590}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000

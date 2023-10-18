@@ -19,7 +19,7 @@ public class EnemyControl : MonoBehaviour
     {
         Vector3 Origin = transform.position + transform.up * 3;
         Vector3 destination = transform.forward;
-        float distance = 5;
+        float distance = 8;
 
         hit = Physics.Raycast(Origin, destination, out ray, distance);
 

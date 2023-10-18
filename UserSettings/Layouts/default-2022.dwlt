@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Git for Unity
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 292
+  controlID: 101
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,23 +59,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: Window
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1380
+    x: 1381
     y: 0
-    width: 540
+    width: 539
     height: 947
-  m_MinSize: {x: 275, y: 50}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -119,7 +119,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 611
-    width: 1380
+    width: 1381
     height: 336
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
@@ -219,7 +219,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1380
+    width: 1381
     height: 947
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
@@ -244,7 +244,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1380
+    width: 1381
     height: 611
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
@@ -267,7 +267,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 384
     y: 0
-    width: 996
+    width: 997
     height: 611
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -297,9 +297,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1380
+    x: 1381
     y: 73
-    width: 539
+    width: 538
     height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -311,14 +311,14 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  progressMessageClearTime: -1
+  progressMessageClearTime: 1065.9677817999998
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 0
   changeTab: 2
   activeTab: 2
   initProjectView:
@@ -477,10 +477,10 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2023-10-11T08:29:08.869+03:00
+      updatedTimeString: 2023-10-12T11:41:18.285+03:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2023-10-11T08:28:26.270+03:00
+      updatedTimeString: 2023-10-12T11:39:40.337+03:00
       cacheType: 1
     currentBranch:
       name: master
@@ -566,18 +566,336 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-10-11T09:26:02.400+03:00
+      updatedTimeString: 2023-10-12T11:39:40.337+03:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-10-11T09:25:45.206+03:00
+      updatedTimeString: 2023-10-12T11:41:19.161+03:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-10-11T09:25:03.779+03:00
+      updatedTimeString: 2023-10-12T11:39:42.097+03:00
       cacheType: 7
   historyView:
-    currentLogHasUpdate: 1
-    currentTrackingStatusHasUpdate: 1
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: 6ce6b16ed1f59af1091105c6f0707b192f14b76e
+      mergeA: 
+      mergeB: 
+      authorName: SM3176
+      authorEmail: 202003176@student.polytechnic.bh
+      commitEmail: 202003176@student.polytechnic.bh
+      commitName: SM3176
+      summary: T6
+      description: 
+      timeString: 2023-10-12T11:41:17.000+03:00
+      commitTimeString: 2023-10-12T11:41:17.000+03:00
+      changes:
+      - path: Assets\Cube (3).prefab
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (3).prefab
+        projectPath: Assets\Cube (3).prefab
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Cube (3).prefab.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (3).prefab.meta
+        projectPath: Assets\Cube (3).prefab.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Cube (4).prefab
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (4).prefab
+        projectPath: Assets\Cube (4).prefab
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Cube (4).prefab.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (4).prefab.meta
+        projectPath: Assets\Cube (4).prefab.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Materials\Belly.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Belly.mat
+        projectPath: Assets\Materials\Belly.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Belly.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Belly.mat.meta
+        projectPath: Assets\Materials\Belly.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Black.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Black.mat
+        projectPath: Assets\Materials\Black.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Black.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Black.mat.meta
+        projectPath: Assets\Materials\Black.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Body.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Body.mat
+        projectPath: Assets\Materials\Body.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Body.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Body.mat.meta
+        projectPath: Assets\Materials\Body.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Claws.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Claws.mat
+        projectPath: Assets\Materials\Claws.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Claws.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Claws.mat.meta
+        projectPath: Assets\Materials\Claws.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Eyes.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Eyes.mat
+        projectPath: Assets\Materials\Eyes.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Eyes.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Eyes.mat.meta
+        projectPath: Assets\Materials\Eyes.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Main.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Main.mat
+        projectPath: Assets\Materials\Main.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Main.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Main.mat.meta
+        projectPath: Assets\Materials\Main.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Nose.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Nose.mat
+        projectPath: Assets\Materials\Nose.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Nose.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Nose.mat.meta
+        projectPath: Assets\Materials\Nose.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Skeleton.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Skeleton.mat
+        projectPath: Assets\Materials\Skeleton.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Skeleton.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Skeleton.mat.meta
+        projectPath: Assets\Materials\Skeleton.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Wings.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Wings.mat
+        projectPath: Assets\Materials\Wings.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Wings.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Wings.mat.meta
+        projectPath: Assets\Materials\Wings.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Models.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models.meta
+        projectPath: Assets\Models.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Models\Dragon.fbx
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Dragon.fbx
+        projectPath: Assets\Models\Dragon.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Models\Dragon.fbx.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Dragon.fbx.meta
+        projectPath: Assets\Models\Dragon.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Models\Prefabs.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Prefabs.meta
+        projectPath: Assets\Models\Prefabs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Models\Prefabs\Dragon.prefab
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Prefabs\Dragon.prefab
+        projectPath: Assets\Models\Prefabs\Dragon.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Models\Prefabs\Dragon.prefab.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Prefabs\Dragon.prefab.meta
+        projectPath: Assets\Models\Prefabs\Dragon.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Models\Prefabs\Skeleton.prefab
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Prefabs\Skeleton.prefab
+        projectPath: Assets\Models\Prefabs\Skeleton.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Models\Prefabs\Skeleton.prefab.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Prefabs\Skeleton.prefab.meta
+        projectPath: Assets\Models\Prefabs\Skeleton.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Models\Skeleton.fbx
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Skeleton.fbx
+        projectPath: Assets\Models\Skeleton.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Models\Skeleton.fbx.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Skeleton.fbx.meta
+        projectPath: Assets\Models\Skeleton.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\Level1.unity
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\Level1.unity
+        projectPath: Assets\Scenes\Level1.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Script\CharacterControl.cs
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\CharacterControl.cs
+        projectPath: Assets\Script\CharacterControl.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\CharacterControl.cs.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\CharacterControl.cs.meta
+        projectPath: Assets\Script\CharacterControl.cs.meta
+        originalPath: Assets\Script\test.cs.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Script\EnemyControl.cs
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\EnemyControl.cs
+        projectPath: Assets\Script\EnemyControl.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\EnemyControl.cs.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\EnemyControl.cs.meta
+        projectPath: Assets\Script\EnemyControl.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\rotateD.cs
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\rotateD.cs
+        projectPath: Assets\Script\rotateD.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\rotateD.cs.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\rotateD.cs.meta
+        projectPath: Assets\Script\rotateD.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\test.cs
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\test.cs
+        projectPath: Assets\Script\test.cs
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: ProjectSettings\InputManager.asset
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\ProjectSettings\InputManager.asset
+        projectPath: ProjectSettings\InputManager.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\TagManager.asset
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\ProjectSettings\TagManager.asset
+        projectPath: ProjectSettings\TagManager.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\UserSettings\Layouts\default-2022.dwlt
+        projectPath: UserSettings\Layouts\default-2022.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 0062b8aab55c7793675fec6a0e950de16481977d
+      mergeA: 
+      mergeB: 
+      authorName: SM3176
+      authorEmail: 202003176@student.polytechnic.bh
+      commitEmail: 202003176@student.polytechnic.bh
+      commitName: SM3176
+      summary: pro
+      description: 
+      timeString: 2023-10-12T11:39:39.000+03:00
+      commitTimeString: 2023-10-12T11:39:39.000+03:00
+      changes:
+      - path: Assets\Cube (3).prefab
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (3).prefab
+        projectPath: Assets\Cube (3).prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Cube (3).prefab.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (3).prefab.meta
+        projectPath: Assets\Cube (3).prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Cube (4).prefab
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (4).prefab
+        projectPath: Assets\Cube (4).prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Cube (4).prefab.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (4).prefab.meta
+        projectPath: Assets\Cube (4).prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\test.cs
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\test.cs
+        projectPath: Assets\Script\test.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\test.cs.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\test.cs.meta
+        projectPath: Assets\Script\test.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
     - commitID: 3e738e280a77b50abd96c3f2654c3c8d52d9e1c5
       mergeA: 
       mergeB: 
@@ -3259,14 +3577,332 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2023-10-12T11:22:00.826+03:00
+      updatedTimeString: 2023-10-12T11:42:04.625+03:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2023-10-12T11:22:00.809+03:00
+      updatedTimeString: 2023-10-12T11:42:04.616+03:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: 6ce6b16ed1f59af1091105c6f0707b192f14b76e
+        mergeA: 
+        mergeB: 
+        authorName: SM3176
+        authorEmail: 202003176@student.polytechnic.bh
+        commitEmail: 202003176@student.polytechnic.bh
+        commitName: SM3176
+        summary: T6
+        description: 
+        timeString: 2023-10-12T11:41:17.000+03:00
+        commitTimeString: 2023-10-12T11:41:17.000+03:00
+        changes:
+        - path: Assets\Cube (3).prefab
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (3).prefab
+          projectPath: Assets\Cube (3).prefab
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Cube (3).prefab.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (3).prefab.meta
+          projectPath: Assets\Cube (3).prefab.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Cube (4).prefab
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (4).prefab
+          projectPath: Assets\Cube (4).prefab
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Cube (4).prefab.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (4).prefab.meta
+          projectPath: Assets\Cube (4).prefab.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Materials\Belly.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Belly.mat
+          projectPath: Assets\Materials\Belly.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Belly.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Belly.mat.meta
+          projectPath: Assets\Materials\Belly.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Black.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Black.mat
+          projectPath: Assets\Materials\Black.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Black.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Black.mat.meta
+          projectPath: Assets\Materials\Black.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Body.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Body.mat
+          projectPath: Assets\Materials\Body.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Body.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Body.mat.meta
+          projectPath: Assets\Materials\Body.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Claws.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Claws.mat
+          projectPath: Assets\Materials\Claws.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Claws.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Claws.mat.meta
+          projectPath: Assets\Materials\Claws.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Eyes.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Eyes.mat
+          projectPath: Assets\Materials\Eyes.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Eyes.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Eyes.mat.meta
+          projectPath: Assets\Materials\Eyes.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Main.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Main.mat
+          projectPath: Assets\Materials\Main.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Main.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Main.mat.meta
+          projectPath: Assets\Materials\Main.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Nose.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Nose.mat
+          projectPath: Assets\Materials\Nose.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Nose.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Nose.mat.meta
+          projectPath: Assets\Materials\Nose.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Skeleton.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Skeleton.mat
+          projectPath: Assets\Materials\Skeleton.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Skeleton.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Skeleton.mat.meta
+          projectPath: Assets\Materials\Skeleton.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Wings.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Wings.mat
+          projectPath: Assets\Materials\Wings.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Wings.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Wings.mat.meta
+          projectPath: Assets\Materials\Wings.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Models.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models.meta
+          projectPath: Assets\Models.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Models\Dragon.fbx
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Dragon.fbx
+          projectPath: Assets\Models\Dragon.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Models\Dragon.fbx.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Dragon.fbx.meta
+          projectPath: Assets\Models\Dragon.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Models\Prefabs.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Prefabs.meta
+          projectPath: Assets\Models\Prefabs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Models\Prefabs\Dragon.prefab
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Prefabs\Dragon.prefab
+          projectPath: Assets\Models\Prefabs\Dragon.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Models\Prefabs\Dragon.prefab.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Prefabs\Dragon.prefab.meta
+          projectPath: Assets\Models\Prefabs\Dragon.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Models\Prefabs\Skeleton.prefab
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Prefabs\Skeleton.prefab
+          projectPath: Assets\Models\Prefabs\Skeleton.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Models\Prefabs\Skeleton.prefab.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Prefabs\Skeleton.prefab.meta
+          projectPath: Assets\Models\Prefabs\Skeleton.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Models\Skeleton.fbx
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Skeleton.fbx
+          projectPath: Assets\Models\Skeleton.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Models\Skeleton.fbx.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Skeleton.fbx.meta
+          projectPath: Assets\Models\Skeleton.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\Level1.unity
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\Level1.unity
+          projectPath: Assets\Scenes\Level1.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Script\CharacterControl.cs
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\CharacterControl.cs
+          projectPath: Assets\Script\CharacterControl.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Script\CharacterControl.cs.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\CharacterControl.cs.meta
+          projectPath: Assets\Script\CharacterControl.cs.meta
+          originalPath: Assets\Script\test.cs.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Script\EnemyControl.cs
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\EnemyControl.cs
+          projectPath: Assets\Script\EnemyControl.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Script\EnemyControl.cs.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\EnemyControl.cs.meta
+          projectPath: Assets\Script\EnemyControl.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Script\rotateD.cs
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\rotateD.cs
+          projectPath: Assets\Script\rotateD.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Script\rotateD.cs.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\rotateD.cs.meta
+          projectPath: Assets\Script\rotateD.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Script\test.cs
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\test.cs
+          projectPath: Assets\Script\test.cs
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: ProjectSettings\InputManager.asset
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\ProjectSettings\InputManager.asset
+          projectPath: ProjectSettings\InputManager.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\TagManager.asset
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 0062b8aab55c7793675fec6a0e950de16481977d
+        mergeA: 
+        mergeB: 
+        authorName: SM3176
+        authorEmail: 202003176@student.polytechnic.bh
+        commitEmail: 202003176@student.polytechnic.bh
+        commitName: SM3176
+        summary: pro
+        description: 
+        timeString: 2023-10-12T11:39:39.000+03:00
+        commitTimeString: 2023-10-12T11:39:39.000+03:00
+        changes:
+        - path: Assets\Cube (3).prefab
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (3).prefab
+          projectPath: Assets\Cube (3).prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Cube (3).prefab.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (3).prefab.meta
+          projectPath: Assets\Cube (3).prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Cube (4).prefab
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (4).prefab
+          projectPath: Assets\Cube (4).prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Cube (4).prefab.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (4).prefab.meta
+          projectPath: Assets\Cube (4).prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Script\test.cs
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\test.cs
+          projectPath: Assets\Script\test.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Script\test.cs.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\test.cs.meta
+          projectPath: Assets\Script\test.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
       - commitID: 3e738e280a77b50abd96c3f2654c3c8d52d9e1c5
         mergeA: 
         mergeB: 
@@ -5949,35 +6585,275 @@ MonoBehaviour:
           indexStatus: 4
           workTreeStatus: 0
       statusAhead: 0
-      selectedIndex: -1
+      selectedIndex: 0
     selectedEntry:
-      commitID: 
+      commitID: 6ce6b16ed1f59af1091105c6f0707b192f14b76e
       mergeA: 
       mergeB: 
-      authorName: 
-      authorEmail: 
-      commitEmail: 
-      commitName: 
-      summary: 
+      authorName: SM3176
+      authorEmail: 202003176@student.polytechnic.bh
+      commitEmail: 202003176@student.polytechnic.bh
+      commitName: SM3176
+      summary: T6
       description: 
-      timeString: 0001-01-01T00:00:00.000+00:00
-      commitTimeString: 0001-01-01T00:00:00.000+00:00
+      timeString: 2023-10-12T11:41:17.000+03:00
+      commitTimeString: 2023-10-12T11:41:17.000+03:00
       changes:
+      - path: Assets\Cube (3).prefab
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (3).prefab
+        projectPath: Assets\Cube (3).prefab
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Cube (3).prefab.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (3).prefab.meta
+        projectPath: Assets\Cube (3).prefab.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Cube (4).prefab
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (4).prefab
+        projectPath: Assets\Cube (4).prefab
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Cube (4).prefab.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (4).prefab.meta
+        projectPath: Assets\Cube (4).prefab.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Materials\Belly.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Belly.mat
+        projectPath: Assets\Materials\Belly.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Belly.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Belly.mat.meta
+        projectPath: Assets\Materials\Belly.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Black.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Black.mat
+        projectPath: Assets\Materials\Black.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Black.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Black.mat.meta
+        projectPath: Assets\Materials\Black.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Body.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Body.mat
+        projectPath: Assets\Materials\Body.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Body.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Body.mat.meta
+        projectPath: Assets\Materials\Body.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Claws.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Claws.mat
+        projectPath: Assets\Materials\Claws.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Claws.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Claws.mat.meta
+        projectPath: Assets\Materials\Claws.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Eyes.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Eyes.mat
+        projectPath: Assets\Materials\Eyes.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Eyes.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Eyes.mat.meta
+        projectPath: Assets\Materials\Eyes.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Main.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Main.mat
+        projectPath: Assets\Materials\Main.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Main.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Main.mat.meta
+        projectPath: Assets\Materials\Main.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Nose.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Nose.mat
+        projectPath: Assets\Materials\Nose.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Nose.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Nose.mat.meta
+        projectPath: Assets\Materials\Nose.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Skeleton.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Skeleton.mat
+        projectPath: Assets\Materials\Skeleton.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Skeleton.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Skeleton.mat.meta
+        projectPath: Assets\Materials\Skeleton.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Wings.mat
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Wings.mat
+        projectPath: Assets\Materials\Wings.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Wings.mat.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Wings.mat.meta
+        projectPath: Assets\Materials\Wings.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Models.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models.meta
+        projectPath: Assets\Models.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Models\Dragon.fbx
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Dragon.fbx
+        projectPath: Assets\Models\Dragon.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Models\Dragon.fbx.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Dragon.fbx.meta
+        projectPath: Assets\Models\Dragon.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Models\Prefabs.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Prefabs.meta
+        projectPath: Assets\Models\Prefabs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Models\Prefabs\Dragon.prefab
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Prefabs\Dragon.prefab
+        projectPath: Assets\Models\Prefabs\Dragon.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Models\Prefabs\Dragon.prefab.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Prefabs\Dragon.prefab.meta
+        projectPath: Assets\Models\Prefabs\Dragon.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Models\Prefabs\Skeleton.prefab
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Prefabs\Skeleton.prefab
+        projectPath: Assets\Models\Prefabs\Skeleton.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Models\Prefabs\Skeleton.prefab.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Prefabs\Skeleton.prefab.meta
+        projectPath: Assets\Models\Prefabs\Skeleton.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Models\Skeleton.fbx
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Skeleton.fbx
+        projectPath: Assets\Models\Skeleton.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Models\Skeleton.fbx.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Skeleton.fbx.meta
+        projectPath: Assets\Models\Skeleton.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
       - path: Assets\Scenes\Level1.unity
         fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Scenes\Level1.unity
         projectPath: Assets\Scenes\Level1.unity
         originalPath: 
         indexStatus: 3
         workTreeStatus: 0
-      - path: Assets\Script\RollerBall.cs
-        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\RollerBall.cs
-        projectPath: Assets\Script\RollerBall.cs
+      - path: Assets\Script\CharacterControl.cs
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\CharacterControl.cs
+        projectPath: Assets\Script\CharacterControl.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\CharacterControl.cs.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\CharacterControl.cs.meta
+        projectPath: Assets\Script\CharacterControl.cs.meta
+        originalPath: Assets\Script\test.cs.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Script\EnemyControl.cs
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\EnemyControl.cs
+        projectPath: Assets\Script\EnemyControl.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\EnemyControl.cs.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\EnemyControl.cs.meta
+        projectPath: Assets\Script\EnemyControl.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\rotateD.cs
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\rotateD.cs
+        projectPath: Assets\Script\rotateD.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\rotateD.cs.meta
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\rotateD.cs.meta
+        projectPath: Assets\Script\rotateD.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\test.cs
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\test.cs
+        projectPath: Assets\Script\test.cs
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: ProjectSettings\InputManager.asset
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\ProjectSettings\InputManager.asset
+        projectPath: ProjectSettings\InputManager.asset
         originalPath: 
         indexStatus: 3
         workTreeStatus: 0
-      - path: UserSettings\EditorUserSettings.asset
-        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\UserSettings\EditorUserSettings.asset
-        projectPath: UserSettings\EditorUserSettings.asset
+      - path: ProjectSettings\TagManager.asset
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\ProjectSettings\TagManager.asset
+        projectPath: ProjectSettings\TagManager.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        fullPath: C:\Users\202003176\Desktop\tutorial-maybe\UserSettings\Layouts\default-2022.dwlt
+        projectPath: UserSettings\Layouts\default-2022.dwlt
         originalPath: 
         indexStatus: 3
         workTreeStatus: 0
@@ -5988,13 +6864,72 @@ MonoBehaviour:
       folders:
         keys:
         - Assets
+        - Assets\Materials
+        - Assets\Models
+        - Assets\Models\Prefabs
         - Assets\Scenes
         - Assets\Script
+        - ProjectSettings
         - UserSettings
+        - UserSettings\Layouts
         values:
         - path: Assets
           label: Assets
           level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Materials
+          label: Materials
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Models
+          label: Models
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Models\Prefabs
+          label: Prefabs
+          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -6046,9 +6981,45 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
+        - path: ProjectSettings
+          label: ProjectSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
         - path: UserSettings
           label: UserSettings
           level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings\Layouts
+          label: Layouts
+          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -6110,6 +7081,636 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Assets\Cube (3).prefab
+        label: Cube (3).prefab
+        level: 1
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Cube (3).prefab
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (3).prefab
+          projectPath: Assets\Cube (3).prefab
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+      - path: Assets\Cube (3).prefab.meta
+        label: Cube (3).prefab.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Cube (3).prefab.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (3).prefab.meta
+          projectPath: Assets\Cube (3).prefab.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+      - path: Assets\Cube (4).prefab
+        label: Cube (4).prefab
+        level: 1
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Cube (4).prefab
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (4).prefab
+          projectPath: Assets\Cube (4).prefab
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+      - path: Assets\Cube (4).prefab.meta
+        label: Cube (4).prefab.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Cube (4).prefab.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Cube (4).prefab.meta
+          projectPath: Assets\Cube (4).prefab.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+      - path: Assets\Materials
+        label: Materials
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Materials\Belly.mat
+        label: Belly.mat
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Belly.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Belly.mat
+          projectPath: Assets\Materials\Belly.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Materials\Belly.mat.meta
+        label: Belly.mat.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Belly.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Belly.mat.meta
+          projectPath: Assets\Materials\Belly.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Materials\Black.mat
+        label: Black.mat
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Black.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Black.mat
+          projectPath: Assets\Materials\Black.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Materials\Black.mat.meta
+        label: Black.mat.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Black.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Black.mat.meta
+          projectPath: Assets\Materials\Black.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Materials\Body.mat
+        label: Body.mat
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Body.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Body.mat
+          projectPath: Assets\Materials\Body.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Materials\Body.mat.meta
+        label: Body.mat.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Body.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Body.mat.meta
+          projectPath: Assets\Materials\Body.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Materials\Claws.mat
+        label: Claws.mat
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Claws.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Claws.mat
+          projectPath: Assets\Materials\Claws.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Materials\Claws.mat.meta
+        label: Claws.mat.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Claws.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Claws.mat.meta
+          projectPath: Assets\Materials\Claws.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Materials\Eyes.mat
+        label: Eyes.mat
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Eyes.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Eyes.mat
+          projectPath: Assets\Materials\Eyes.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Materials\Eyes.mat.meta
+        label: Eyes.mat.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Eyes.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Eyes.mat.meta
+          projectPath: Assets\Materials\Eyes.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Materials\Main.mat
+        label: Main.mat
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Main.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Main.mat
+          projectPath: Assets\Materials\Main.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Materials\Main.mat.meta
+        label: Main.mat.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Main.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Main.mat.meta
+          projectPath: Assets\Materials\Main.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Materials\Nose.mat
+        label: Nose.mat
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Nose.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Nose.mat
+          projectPath: Assets\Materials\Nose.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Materials\Nose.mat.meta
+        label: Nose.mat.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Nose.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Nose.mat.meta
+          projectPath: Assets\Materials\Nose.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Materials\Skeleton.mat
+        label: Skeleton.mat
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Skeleton.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Skeleton.mat
+          projectPath: Assets\Materials\Skeleton.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Materials\Skeleton.mat.meta
+        label: Skeleton.mat.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Skeleton.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Skeleton.mat.meta
+          projectPath: Assets\Materials\Skeleton.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Materials\Wings.mat
+        label: Wings.mat
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Wings.mat
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Wings.mat
+          projectPath: Assets\Materials\Wings.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Materials\Wings.mat.meta
+        label: Wings.mat.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Wings.mat.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Materials\Wings.mat.meta
+          projectPath: Assets\Materials\Wings.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Models.meta
+        label: Models.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Models.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models.meta
+          projectPath: Assets\Models.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Models
+        label: Models
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Models\Dragon.fbx
+        label: Dragon.fbx
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Models\Dragon.fbx
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Dragon.fbx
+          projectPath: Assets\Models\Dragon.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Models\Dragon.fbx.meta
+        label: Dragon.fbx.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Models\Dragon.fbx.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Dragon.fbx.meta
+          projectPath: Assets\Models\Dragon.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Models\Prefabs.meta
+        label: Prefabs.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Models\Prefabs.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Prefabs.meta
+          projectPath: Assets\Models\Prefabs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Models\Prefabs
+        label: Prefabs
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Models\Prefabs\Dragon.prefab
+        label: Dragon.prefab
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Models\Prefabs\Dragon.prefab
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Prefabs\Dragon.prefab
+          projectPath: Assets\Models\Prefabs\Dragon.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Models\Prefabs\Dragon.prefab.meta
+        label: Dragon.prefab.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Models\Prefabs\Dragon.prefab.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Prefabs\Dragon.prefab.meta
+          projectPath: Assets\Models\Prefabs\Dragon.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Models\Prefabs\Skeleton.prefab
+        label: Skeleton.prefab
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Models\Prefabs\Skeleton.prefab
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Prefabs\Skeleton.prefab
+          projectPath: Assets\Models\Prefabs\Skeleton.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Models\Prefabs\Skeleton.prefab.meta
+        label: Skeleton.prefab.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Models\Prefabs\Skeleton.prefab.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Prefabs\Skeleton.prefab.meta
+          projectPath: Assets\Models\Prefabs\Skeleton.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Models\Skeleton.fbx
+        label: Skeleton.fbx
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Models\Skeleton.fbx
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Skeleton.fbx
+          projectPath: Assets\Models\Skeleton.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Models\Skeleton.fbx.meta
+        label: Skeleton.fbx.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Models\Skeleton.fbx.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Models\Skeleton.fbx.meta
+          projectPath: Assets\Models\Skeleton.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
       - path: Assets\Scenes
         label: Scenes
         level: 1
@@ -6164,8 +7765,116 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Script\RollerBall.cs
-        label: RollerBall.cs
+      - path: Assets\Script\CharacterControl.cs
+        label: CharacterControl.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Script\CharacterControl.cs
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\CharacterControl.cs
+          projectPath: Assets\Script\CharacterControl.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Script\CharacterControl.cs.meta
+        label: CharacterControl.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Script\CharacterControl.cs.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\CharacterControl.cs.meta
+          projectPath: Assets\Script\CharacterControl.cs.meta
+          originalPath: Assets\Script\test.cs.meta
+          indexStatus: 6
+          workTreeStatus: 0
+      - path: Assets\Script\EnemyControl.cs
+        label: EnemyControl.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Script\EnemyControl.cs
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\EnemyControl.cs
+          projectPath: Assets\Script\EnemyControl.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Script\EnemyControl.cs.meta
+        label: EnemyControl.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Script\EnemyControl.cs.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\EnemyControl.cs.meta
+          projectPath: Assets\Script\EnemyControl.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Script\rotateD.cs
+        label: rotateD.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Script\rotateD.cs
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\rotateD.cs
+          projectPath: Assets\Script\rotateD.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Script\rotateD.cs.meta
+        label: rotateD.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Script\rotateD.cs.meta
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\rotateD.cs.meta
+          projectPath: Assets\Script\rotateD.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Script\test.cs
+        label: test.cs
         level: 2
         isFolder: 0
         isContainer: 0
@@ -6176,9 +7885,63 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Script\RollerBall.cs
-          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\RollerBall.cs
-          projectPath: Assets\Script\RollerBall.cs
+          path: Assets\Script\test.cs
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\Assets\Script\test.cs
+          projectPath: Assets\Script\test.cs
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+      - path: ProjectSettings
+        label: ProjectSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: ProjectSettings\InputManager.asset
+        label: InputManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\InputManager.asset
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\ProjectSettings\InputManager.asset
+          projectPath: ProjectSettings\InputManager.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - path: ProjectSettings\TagManager.asset
+        label: TagManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\TagManager.asset
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
           originalPath: 
           indexStatus: 3
           workTreeStatus: 0
@@ -6200,9 +7963,27 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: UserSettings\EditorUserSettings.asset
-        label: EditorUserSettings.asset
+      - path: UserSettings\Layouts
+        label: Layouts
         level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        label: default-2022.dwlt
+        level: 2
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -6212,9 +7993,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: UserSettings\EditorUserSettings.asset
-          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\UserSettings\EditorUserSettings.asset
-          projectPath: UserSettings\EditorUserSettings.asset
+          path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\202003176\Desktop\tutorial-maybe\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
           originalPath: 
           indexStatus: 3
           workTreeStatus: 0
@@ -6290,22 +8071,16 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 03:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-10-11T08:28:26.270+03:00
+      updatedTimeString: 2023-10-12T11:39:40.337+03:00
       cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 2023-10-11T08:28:28.234+03:00
+      updatedTimeString: 2023-10-12T11:40:48.181+03:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-10-11T08:28:28.451+03:00
+      updatedTimeString: 2023-10-12T11:41:19.161+03:00
       cacheType: 6
     lockedFiles: []
-    gitStatusEntries:
-    - path: UserSettings\Layouts\default-2022.dwlt
-      fullPath: C:\Users\202003176\Desktop\tutorial-maybe\UserSettings\Layouts\default-2022.dwlt
-      projectPath: UserSettings\Layouts\default-2022.dwlt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
+    gitStatusEntries: []
     currentUsername: 
     unlockFileMenuContent:
       m_Text: Release Lock
@@ -6321,7 +8096,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/SM3176/tutorial-maybe.git
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 1
+  hasItemsToCommit: 0
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: master
@@ -6332,13 +8107,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-10-12T10:48:30.620+03:00
+    updatedTimeString: 2023-10-12T11:42:03.260+03:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-10-12T10:48:40.099+03:00
+    updatedTimeString: 2023-10-12T11:42:04.616+03:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-10-12T10:49:29.185+03:00
+    updatedTimeString: 2023-10-12T11:41:19.161+03:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -6356,8 +8131,8 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
+  repositoryProgressValue: 1
+  repositoryProgressMessage: Pushed
   appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
@@ -6383,7 +8158,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 684
-    width: 1379
+    width: 1380
     height: 315
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -6408,7 +8183,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Skybox
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -6416,16 +8191,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Skybox
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\202003176\Desktop\tutorial-maybe
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: f0600000
-    m_LastClickedID: 24816
-    m_ExpandedIDs: 00000000bc60000000ca9a3bffffff7f
+    m_SelectedIDs: c2600000
+    m_LastClickedID: 24770
+    m_ExpandedIDs: 00000000c260000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -6453,7 +8228,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000bc600000
+    m_ExpandedIDs: 00000000c2600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -6529,9 +8304,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1380
+    x: 1381
     y: 73
-    width: 539
+    width: 538
     height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -6595,7 +8370,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: b2b2ffff16fbffffbc5e0000
+      m_ExpandedIDs: 22fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -6641,7 +8416,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 384
     y: 73
-    width: 994
+    width: 995
     height: 590
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -6949,9 +8724,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.6664433, y: 12.613357, z: -6.4909577}
+    m_Target: {x: 9.697991, y: -8.401018, z: 11.381343}
     speed: 2
-    m_Value: {x: 2.6664433, y: 12.613357, z: -6.4909577}
+    m_Value: {x: 9.697991, y: -8.401018, z: 11.381343}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -6997,9 +8772,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.12117416, y: 0.02174349, z: -0.0026638298, w: -0.9924036}
+    m_Target: {x: -0.30176708, y: -0.5152054, z: 0.20011325, w: -0.77684903}
     speed: 2
-    m_Value: {x: -0.11819475, y: 0.02175108, z: -0.0025985474, w: -0.9927488}
+    m_Value: {x: -0.30176112, y: -0.5151952, z: 0.20010929, w: -0.77683365}
   m_Size:
     m_Target: 16.411413
     speed: 2
@@ -7084,7 +8859,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 384
     y: 73
-    width: 994
+    width: 995
     height: 590
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -7104,7 +8879,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 994, y: 569}
+  m_TargetSize: {x: 995, y: 569}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -7119,8 +8894,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -497
-    m_HBaseRangeMax: 497
+    m_HBaseRangeMin: -497.5
+    m_HBaseRangeMax: 497.5
     m_VBaseRangeMin: -284.5
     m_VBaseRangeMax: 284.5
     m_HAllowExceedBaseRangeMin: 1
@@ -7140,23 +8915,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 994
+      width: 995
       height: 569
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 497, y: 284.5}
+    m_Translation: {x: 497.5, y: 284.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -497
+      x: -497.5
       y: -284.5
-      width: 994
+      width: 995
       height: 569
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 994, y: 590}
+  m_LastWindowPixelSize: {x: 995, y: 590}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
